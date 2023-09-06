@@ -25,6 +25,15 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <validationSteps>
+      <id>6a909f8d-b520-4909-aef8-20d244ddcaf7</id>
+      <name>ValidateResponse</name>
+      <type>AUTO_DETECT</type>
+      <dataType>FILE</dataType>
+      <target>RESPONSE</target>
+      <data>UsersJsonResponseSchema.txt</data>
+      <activate>true</activate>
+   </validationSteps>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
