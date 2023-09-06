@@ -7,7 +7,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -29,7 +29,7 @@
       <webElementGuid>8c62b04c-dd21-4d4f-85fb-e0a575aa7041</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.6</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <restRequestMethod></restRequestMethod>
    <restUrl></restUrl>
    <serviceType>SOAP</serviceType>
@@ -46,8 +46,17 @@
    <soapRequestMethod>SOAP</soapRequestMethod>
    <soapServiceEndpoint>https://www.crcind.com:443/csp/samples/SOAP.Demo.cls</soapServiceEndpoint>
    <soapServiceFunction>AddInteger</soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
+   <validationSteps>
+      <id>5fc051a1-bdd2-48b5-b0b2-6a97fe85af4b</id>
+      <name>CheckResponse</name>
+      <type>AUTO_DETECT</type>
+      <dataType>FILE</dataType>
+      <target>RESPONSE</target>
+      <data>XmlSchema.txt</data>
+      <activate>true</activate>
+   </validationSteps>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
