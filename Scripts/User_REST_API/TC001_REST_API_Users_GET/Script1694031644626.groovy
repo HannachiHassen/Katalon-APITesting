@@ -23,3 +23,5 @@ WS.sendRequestAndVerify(findTestObject('API/REST/GETUsersList'))
 
 WS.sendRequest(findTestObject('API/REST/GETUserID'))
 
+WS.sendRequest(findTestObject('API/REST/GETUserDelay'))
+
