@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_SOAP_API_AddInteger</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b1b9b1f-3287-4cd7-b420-ad4f6c9c2760</testCaseGuid>
+</TestCaseEntity>

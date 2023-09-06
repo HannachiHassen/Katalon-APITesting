@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_SOAP_API_DivideInteger</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e3245da-2d2e-4f34-8ceb-b704d3f25d5e</testCaseGuid>
+</TestCaseEntity>
