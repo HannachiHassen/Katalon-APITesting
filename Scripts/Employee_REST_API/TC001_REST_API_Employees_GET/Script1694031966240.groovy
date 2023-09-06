@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequest(findTestObject('API/REST/GETUsersList'))
+WS.sendRequest(findTestObject('API/REST/GETEmployeeList'))
 
-WS.sendRequestAndVerify(findTestObject('API/REST/GETUsersList'))
+WS.sendRequestAndVerify(findTestObject('API/REST/GETEmployeeList'))
+
+WS.sendRequest(findTestObject('API/REST/GETEmployeeID'))
 

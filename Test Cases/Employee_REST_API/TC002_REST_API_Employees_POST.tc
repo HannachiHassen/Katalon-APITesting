@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_REST_API_Employees_POST</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60fc731c-e56c-46ae-ad42-ec48596cbfbb</testCaseGuid>
+</TestCaseEntity>

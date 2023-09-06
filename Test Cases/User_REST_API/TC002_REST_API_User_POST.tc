@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_REST_API_User_POST</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c95c53cc-7b5a-41bc-a130-910971fb5249</testCaseGuid>
+</TestCaseEntity>

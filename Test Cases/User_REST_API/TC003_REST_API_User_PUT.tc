@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC001_REST_API_Users</name>
+   <name>TC003_REST_API_User_PUT</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fa454fce-d3bb-4482-aa84-329e615956f7</testCaseGuid>
+   <testCaseGuid>3e3c415f-fabe-4abb-a20d-d49595efd954</testCaseGuid>
 </TestCaseEntity>

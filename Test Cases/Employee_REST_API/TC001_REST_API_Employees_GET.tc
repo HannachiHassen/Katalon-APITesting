@@ -3,7 +3,7 @@
    <description>GET request for details of all mployees
 
 https://dummy.restapiexample.com/api/v1/employees</description>
-   <name>TC002_REST_API_Employees</name>
+   <name>TC001_REST_API_Employees_GET</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>486e8783-cc8f-4bbb-bf4b-11da12358b7f</testCaseGuid>

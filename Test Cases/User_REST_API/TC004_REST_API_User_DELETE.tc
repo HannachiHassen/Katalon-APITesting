@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_REST_API_User_DELETE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c30e7d37-c6fe-4e47-b0ed-c3d3d1aa6046</testCaseGuid>
+</TestCaseEntity>

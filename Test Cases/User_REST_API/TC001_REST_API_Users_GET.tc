@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_REST_API_Users_GET</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa454fce-d3bb-4482-aa84-329e615956f7</testCaseGuid>
+</TestCaseEntity>
