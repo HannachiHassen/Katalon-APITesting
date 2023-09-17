@@ -39,4 +39,11 @@
       <testCaseId>Test Cases/User_REST_API/TC004_REST_API_User_DELETE</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>13c0e4d6-6d77-4a07-91c7-46aea2496778</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User_REST_API/TC005_REST_API_Verification</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

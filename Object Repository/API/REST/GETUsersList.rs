@@ -54,6 +54,9 @@ WS.verifyResponseStatusCode(response, 200)
 assertThat(response.getStatusCode()).isEqualTo(200)
 
 WS.verifyElementPropertyValue(response, 'data[4].first_name', &quot;George&quot;)
-</verificationScript>
+
+GlobalVariable.FIRST_NAME = WS.getElementPropertyValue(response, 'data[4].first_name')
+
+println 'Global Variable First_Name is : ' +GlobalVariable.FIRST_NAME</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
