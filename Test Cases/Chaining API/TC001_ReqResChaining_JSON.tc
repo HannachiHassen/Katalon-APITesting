@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC006_ReqResChaining_JSON</name>
+   <name>TC001_ReqResChaining_JSON</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>45b0e6b2-01de-4936-bf1e-e265b20bdd1e</testCaseGuid>

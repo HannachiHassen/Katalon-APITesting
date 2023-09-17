@@ -16,7 +16,14 @@ Chaining API request for an XML response using Groovy</description>
       <guid>483e027a-6a86-46f3-b19c-6d74f2dce605</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SOAP/TC010_ReqResChaining_XML</testCaseId>
+      <testCaseId>Test Cases/Chaining API/TC002_ReqResChaining_XML</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>14981a39-d36f-4f04-84a5-077dc11852db</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chaining API/TC004_ReqResChaining_XML_Groovy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

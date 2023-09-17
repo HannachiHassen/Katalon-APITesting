@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_ReqResChaining_XML_Groovy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad9f38d3-69ab-4346-9312-c44a6a33470d</testCaseGuid>
+</TestCaseEntity>

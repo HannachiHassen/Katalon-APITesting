@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC010_ReqResChaining_XML</name>
+   <name>TC003_ReqResChaining_JSON_Groovy</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b199d85d-807e-4295-8f7d-21d590559ec1</testCaseGuid>
+   <testCaseGuid>def286c6-af9e-4be3-8ffb-78aebe493f16</testCaseGuid>
 </TestCaseEntity>
