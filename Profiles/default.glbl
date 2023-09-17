@@ -9,4 +9,9 @@
       <initValue>''</initValue>
       <name>FIRST_NAME</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>FIRST_NUM</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -27,3 +27,6 @@
           }
           
   Step 4: Add both API requests in a test casse using keywords Send Request and Verify
+  Step 5: Save and Run
+  
+  

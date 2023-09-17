@@ -7,7 +7,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -29,7 +29,7 @@
       <webElementGuid>34fcb843-86ec-4e9d-9afa-bcb5c942f876</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.6</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <restRequestMethod></restRequestMethod>
    <restUrl></restUrl>
    <serviceType>SOAP</serviceType>
@@ -37,7 +37,7 @@
    &lt;soapenv:Header/>
    &lt;soapenv:Body>
       &lt;tem:DivideInteger>
-         &lt;tem:Arg1>10&lt;/tem:Arg1>
+         &lt;tem:Arg1>${num1}&lt;/tem:Arg1>
          &lt;tem:Arg2>10&lt;/tem:Arg2>
       &lt;/tem:DivideInteger>
    &lt;/soapenv:Body>
@@ -46,8 +46,15 @@
    <soapRequestMethod>SOAP</soapRequestMethod>
    <soapServiceEndpoint>https://www.crcind.com:443/csp/samples/SOAP.Demo.cls</soapServiceEndpoint>
    <soapServiceFunction>DivideInteger</soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.FIRST_NUM</defaultValue>
+      <description></description>
+      <id>7fc72797-7edc-48c9-bc6b-f5796ba72bc0</id>
+      <masked>false</masked>
+      <name>num1</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -65,6 +72,9 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 WS.verifyResponseStatusCode(response, 200)
 
-assertThat(response.getStatusCode()).isEqualTo(200)</verificationScript>
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+
+WS.verifyElementText(response, 'DivideIntegerResponse.DivideIntegerResult', '2')</verificationScript>
    <wsdlAddress>https://www.crcind.com/csp/samples/SOAP.Demo.CLS?WSDL=1</wsdlAddress>
 </WebServiceRequestEntity>
