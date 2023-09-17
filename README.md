@@ -60,4 +60,43 @@
   Step 4. Add the API request in the test case
   Step 5. In Script section add groovy script to extract value from 1st API Response and store in Global Variable
   Step 6. Run and validate
+  
+ ## Authorizations for API Testing
+    
+  API Authorization: process of granting or revoking access to specific resources or actions with the API
+  
+  How is Authorization implement: In API it is commonly implemented using token-based authentication, such as OAuth2 or JSON Web Token (JWTs)
+  
+  How Authorization works: 1 User/Client obtain an access token
+  						   2 User includes the access token in API requests
+  						   3 The API validates the access token
+  						   4 The API authorizes the request
+  						   
+ ### Basic Authentication
+ 
+ Uses a verified username and password for verification
+ A username and password is sent along with the API Request
+ The credentials gets encoded into the authorization request headers
+ 
+ Credentials consists of a username and password   user1   pass1
+ Credentials are concatenated together with a colon (:)  user1:pass1
+ Add then encoded in Base64 format   dXNIcE6cGzc3xmQx
+ This goes in the Authorization header of the API request  Authorization: Basic dXNIcE6cGzc3xmQx 
+ 
+ practical Demo we will use Katalon Studio to send GET request to GitHub API using basic Auth
+  Step 1. Create a new web service request of type REST
+  Step 2. Add the endpoint https://api.github.com/users/octocat
+  Step 3. In the Authorization tab of a web service request, set the type as Basic
+  Step 4. Add username and password (username1, password1), then click on Updated to HTTP Header
+  Step 5. Check the HTTP Header tab, should have Authorization header added
+  Step 6. Save & Run | Check the response
+  
+### Bearer Authentication
+### Authentication OAuth 1.0
+### Authentication OAuth 2.0
+### NTLM Authentication
+  						   
+  
+  
+  
     
