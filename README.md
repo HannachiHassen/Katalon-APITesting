@@ -29,4 +29,21 @@
   Step 4: Add both API requests in a test casse using keywords Send Request and Verify
   Step 5: Save and Run
   
-  
+ ## Chaining API requests for a JSON response using Groovy scripts
+ 
+   Step 1. Add the first API in Test case 
+ 
+   Step2. Parameterize the value in 2nd API where extracted data needs to be referred
+         Create a variable in variables section
+         Refer the value in the request
+          
+          {
+           "name": "${name}",
+           "job": "Teacher"
+          }
+          
+  Step 3. Refer the value of the local variable from a Global Variable
+  Step 4. Add te 2nd API request in the test case
+  Step 5. In Script section add groovy script to extract value from 1st API Response & store in Global Variable
+   
+    
