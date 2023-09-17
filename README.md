@@ -1,6 +1,5 @@
 # API Testing with Katalon Studio
 
-
 ## API Request-Response chaining
 
  . How to extract data from XML and JSON response
@@ -104,8 +103,19 @@ This access token is generated when the user logs into the server
   Step 5. Check the HTTP Header tab, should have Authorization header added
   Step 6. Save & Run | Check the response
 
-### Authentication OAuth 1.0
-### Authentication OAuth 2.0
+## Authentication OAuth 1.0, OAuth 2.0
+ stands for Open Authorization
+ allow 3rd party applications
+ without the need to share the user's credentials
+ 
+ ** practical Demo we will use Katalon Studio to send GET request to GitHub API using bearer token
+  Step 1. Create an account on Flickr and goto app garden https:www.flickr.com/services/
+  Step 2. Create an app and get API key and Secret
+  Step 3. On Katalon Studio create a REST API with endpoint https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&photo_id=12345
+  Step 4. In the Authorization tab of a web service request, set the Type as OAuth
+  Step 5. Add the Consumer Key and Secret values and updates to HTTP Header
+  Step 6. Save & Run | Check the response
+ 
 ### NTLM Authentication
   						   
   
