@@ -117,7 +117,14 @@ This access token is generated when the user logs into the server
   Step 6. Save & Run | Check the response
  
 ### NTLM Authentication
-  						   
+
+New Technology Lan Manager
+Protocol used by Microsoft widows Authentication
+Examples:
+Logging into a Windows computer
+Accessing a network resource like printer
+Authenticating with a database like Microsoft SQL Server
+Remote Desktop Connection					   
   
   
   
