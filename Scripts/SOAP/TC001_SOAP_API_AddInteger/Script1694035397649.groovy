@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequest(findTestObject('API/SOAP/AddInteger'))
+WS.sendRequest(findTestObject('API/SOAP/SOAP Service/AddInteger'))
 
-WS.sendRequestAndVerify(findTestObject('API/SOAP/AddInteger'))
+WS.sendRequestAndVerify(findTestObject('API/SOAP/SOAP Service/AddInteger'))
 

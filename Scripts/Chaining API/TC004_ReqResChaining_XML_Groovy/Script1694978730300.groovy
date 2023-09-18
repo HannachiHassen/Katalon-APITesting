@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-addResponse = WS.sendRequest(findTestObject('API/SOAP/AddInteger'))
+addResponse = WS.sendRequest(findTestObject('API/SOAP/SOAP Service/AddInteger'))
 
 String xmlBody = addResponse.responseBodyContent
 
@@ -29,4 +29,4 @@ GlobalVariable.FIRST_NUM = value
 
 println('Value of Global Variable FIRST_NUM is :' + GlobalVariable.FIRST_NUM)
 
-WS.sendRequest(findTestObject('API/SOAP/DivideInteger', [('num1') : GlobalVariable.FIRST_NUM]))
+WS.sendRequest(findTestObject('API/SOAP/SOAP Service/DivideInteger', [('num1') : GlobalVariable.FIRST_NUM]))

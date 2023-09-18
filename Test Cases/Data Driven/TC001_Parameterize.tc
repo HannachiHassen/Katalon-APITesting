@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Parameterization, variables, and data-drivern testing to API tests</description>
+   <name>TC001_Parameterize</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6128cd1-558e-4aaf-961e-754c2237c6db</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5278230-8a75-4cda-bf58-1206ee1a040a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d644113-a975-4f7a-b3e3-811b286a6de2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1307e899-b6a1-43be-b586-59137d6d7e39</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbd08a7b-ef70-4f7f-bb5a-35c653ba1b48</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'US'</defaultValue>
+      <description></description>
+      <id>d5278230-8a75-4cda-bf58-1206ee1a040a</id>
+      <masked>false</masked>
+      <name>countryCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'United States'</defaultValue>
+      <description></description>
+      <id>9d644113-a975-4f7a-b3e3-811b286a6de2</id>
+      <masked>false</masked>
+      <name>countryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Washington'</defaultValue>
+      <description></description>
+      <id>1307e899-b6a1-43be-b586-59137d6d7e39</id>
+      <masked>false</masked>
+      <name>countryCapital</name>
+   </variable>
+   <variable>
+      <defaultValue>'USD'</defaultValue>
+      <description></description>
+      <id>dbd08a7b-ef70-4f7f-bb5a-35c653ba1b48</id>
+      <masked>false</masked>
+      <name>countryCurrency</name>
+   </variable>
+</TestCaseEntity>

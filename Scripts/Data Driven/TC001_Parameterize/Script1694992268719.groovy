@@ -17,7 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequestAndVerify(findTestObject('API/SOAP/SOAP Service/AddInteger'))
+response =WS.sendRequest(findTestObject('API/SOAP/Country_SOAP Service/CountryInfoServiceSoapBinding/CountryISOCode', [('countryName') : countryName]))
 
-WS.sendRequestAndVerify(findTestObject('API/SOAP/SOAP Service/DivideInteger', [('num1') : GlobalVariable.FIRST_NUM]))
+WS.verifyElementText(response, 'CountryISOCodeResponse.CountryISOCodeResult', countryCode)
+
+response2 = WS.sendRequest(findTestObject('API/SOAP/Country_SOAP Service/CountryInfoServiceSoapBinding/CapitalCity', [('countryCode') : countryCode]))
+
+WS.verifyElementText(response2, 'CapitalCityResponse.CapitalCityResult', countryCapital)
+
+response3= WS.sendRequest(findTestObject('API/SOAP/Country_SOAP Service/CountryInfoServiceSoapBinding/CountryCurrency', [('countryCode') : countryCode]))
+
+WS.verifyElementText(response3, 'CountryCurrencyResponse.CountryCurrencyResult.sISOCode', countryCurrency)
 
