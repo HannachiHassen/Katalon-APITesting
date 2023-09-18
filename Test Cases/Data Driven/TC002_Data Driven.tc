@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_Data Driven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2427d4f4-ec6b-4a03-b602-f875378c6c5b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>024a6ec1-a9e1-4c6a-af3a-88778c0f4a14</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>024a6ec1-a9e1-4c6a-af3a-88778c0f4a14</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>countryName</value>
+      <variableId>5d9df02e-4f49-4646-8fc7-b2898f1e367c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>024a6ec1-a9e1-4c6a-af3a-88778c0f4a14</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>countryCode</value>
+      <variableId>0db08c0c-018c-4f14-9cd4-f4ce2803396b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>024a6ec1-a9e1-4c6a-af3a-88778c0f4a14</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>countryCity</value>
+      <variableId>41219d18-ac8d-4e08-8b8f-315d653d4bf0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>024a6ec1-a9e1-4c6a-af3a-88778c0f4a14</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>countryCurrency</value>
+      <variableId>a55558ea-38a0-4627-882c-8006af14f78f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'United States'</defaultValue>
+      <description></description>
+      <id>5d9df02e-4f49-4646-8fc7-b2898f1e367c</id>
+      <masked>false</masked>
+      <name>countryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'US'</defaultValue>
+      <description></description>
+      <id>0db08c0c-018c-4f14-9cd4-f4ce2803396b</id>
+      <masked>false</masked>
+      <name>countryCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Washington'</defaultValue>
+      <description></description>
+      <id>41219d18-ac8d-4e08-8b8f-315d653d4bf0</id>
+      <masked>false</masked>
+      <name>countryCity</name>
+   </variable>
+   <variable>
+      <defaultValue>'USD'</defaultValue>
+      <description></description>
+      <id>a55558ea-38a0-4627-882c-8006af14f78f</id>
+      <masked>false</masked>
+      <name>countryCurrency</name>
+   </variable>
+</TestCaseEntity>
