@@ -14,4 +14,9 @@
       <initValue>''</initValue>
       <name>FIRST_NUM</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>COUNTRY_CODE</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
