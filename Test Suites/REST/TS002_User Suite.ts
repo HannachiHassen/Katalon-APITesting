@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TST001_Employee Suite</name>
+   <name>TS002_User Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,33 +10,40 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>0391487a-d9e0-4055-a7df-16111122a8ec</testSuiteGuid>
+   <testSuiteGuid>b14f58f6-0115-44da-9c20-6e1cb60d343a</testSuiteGuid>
    <testCaseLink>
-      <guid>9e7827ca-b6c8-4fdc-adbf-ba3ae5679c96</guid>
+      <guid>e4f1725e-d2be-4431-992a-1f8176f853bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Employee_REST_API/TC001_REST_API_Employees_GET</testCaseId>
+      <testCaseId>Test Cases/User_REST_API/TC001_REST_API_Users_GET</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0e555feb-a922-4817-9087-6ae9e16ed2a2</guid>
+      <guid>edeea206-f95e-4d88-bb97-d9c53d30c6f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Employee_REST_API/TC002_REST_API_Employees_POST</testCaseId>
+      <testCaseId>Test Cases/User_REST_API/TC002_REST_API_User_POST</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>08a15c83-4e45-4a3a-8cf6-95f9f091f16c</guid>
+      <guid>43884b67-294b-46ea-85f9-0dae73bca546</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Employee_REST_API/TC003_REST_API_Employees_PUT</testCaseId>
+      <testCaseId>Test Cases/User_REST_API/TC003_REST_API_User_PUT</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>97bc1946-5e16-4af7-b135-4ec7a4e9bc3f</guid>
+      <guid>d7d9ac3c-8a4b-4a30-ae2a-4177e78552a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Employee_REST_API/TC004_REST_API_Employees_DELETE</testCaseId>
+      <testCaseId>Test Cases/User_REST_API/TC004_REST_API_User_DELETE</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>13c0e4d6-6d77-4a07-91c7-46aea2496778</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User_REST_API/TC005_REST_API_Verification</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
